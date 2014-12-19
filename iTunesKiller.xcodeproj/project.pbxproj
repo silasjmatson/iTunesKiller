@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E053115F1A43B76500C922B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053115E1A43B76500C922B0 /* AppDelegate.swift */; };
+		E05311611A43B76500C922B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05311601A43B76500C922B0 /* Images.xcassets */; };
+		E05311641A43B76500C922B0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E05311621A43B76500C922B0 /* MainMenu.xib */; };
+		E05311701A43B76500C922B0 /* iTunesKillerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E053116F1A43B76500C922B0 /* iTunesKillerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E053116A1A43B76500C922B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E05311511A43B76500C922B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E05311581A43B76500C922B0;
+			remoteInfo = iTunesKiller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E05311591A43B76500C922B0 /* iTunesKiller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesKiller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E053115D1A43B76500C922B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E053115E1A43B76500C922B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E05311601A43B76500C922B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E05311631A43B76500C922B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E05311691A43B76500C922B0 /* iTunesKillerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesKillerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E053116E1A43B76500C922B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E053116F1A43B76500C922B0 /* iTunesKillerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesKillerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E05311561A43B76500C922B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05311661A43B76500C922B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E05311501A43B76500C922B0 = {
+			isa = PBXGroup;
+			children = (
+				E053115B1A43B76500C922B0 /* iTunesKiller */,
+				E053116C1A43B76500C922B0 /* iTunesKillerTests */,
+				E053115A1A43B76500C922B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E053115A1A43B76500C922B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E05311591A43B76500C922B0 /* iTunesKiller.app */,
+				E05311691A43B76500C922B0 /* iTunesKillerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E053115B1A43B76500C922B0 /* iTunesKiller */ = {
+			isa = PBXGroup;
+			children = (
+				E053115E1A43B76500C922B0 /* AppDelegate.swift */,
+				E05311601A43B76500C922B0 /* Images.xcassets */,
+				E05311621A43B76500C922B0 /* MainMenu.xib */,
+				E053115C1A43B76500C922B0 /* Supporting Files */,
+			);
+			path = iTunesKiller;
+			sourceTree = "<group>";
+		};
+		E053115C1A43B76500C922B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E053115D1A43B76500C922B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E053116C1A43B76500C922B0 /* iTunesKillerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E053116F1A43B76500C922B0 /* iTunesKillerTests.swift */,
+				E053116D1A43B76500C922B0 /* Supporting Files */,
+			);
+			path = iTunesKillerTests;
+			sourceTree = "<group>";
+		};
+		E053116D1A43B76500C922B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E053116E1A43B76500C922B0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E05311581A43B76500C922B0 /* iTunesKiller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05311731A43B76500C922B0 /* Build configuration list for PBXNativeTarget "iTunesKiller" */;
+			buildPhases = (
+				E05311551A43B76500C922B0 /* Sources */,
+				E05311561A43B76500C922B0 /* Frameworks */,
+				E05311571A43B76500C922B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iTunesKiller;
+			productName = iTunesKiller;
+			productReference = E05311591A43B76500C922B0 /* iTunesKiller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E05311681A43B76500C922B0 /* iTunesKillerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E05311761A43B76500C922B0 /* Build configuration list for PBXNativeTarget "iTunesKillerTests" */;
+			buildPhases = (
+				E05311651A43B76500C922B0 /* Sources */,
+				E05311661A43B76500C922B0 /* Frameworks */,
+				E05311671A43B76500C922B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E053116B1A43B76500C922B0 /* PBXTargetDependency */,
+			);
+			name = iTunesKillerTests;
+			productName = iTunesKillerTests;
+			productReference = E05311691A43B76500C922B0 /* iTunesKillerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E05311511A43B76500C922B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Silas J. Matson";
+				TargetAttributes = {
+					E05311581A43B76500C922B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E05311681A43B76500C922B0 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E05311581A43B76500C922B0;
+					};
+				};
+			};
+			buildConfigurationList = E05311541A43B76500C922B0 /* Build configuration list for PBXProject "iTunesKiller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E05311501A43B76500C922B0;
+			productRefGroup = E053115A1A43B76500C922B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E05311581A43B76500C922B0 /* iTunesKiller */,
+				E05311681A43B76500C922B0 /* iTunesKillerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E05311571A43B76500C922B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05311611A43B76500C922B0 /* Images.xcassets in Resources */,
+				E05311641A43B76500C922B0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05311671A43B76500C922B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E05311551A43B76500C922B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E053115F1A43B76500C922B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E05311651A43B76500C922B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E05311701A43B76500C922B0 /* iTunesKillerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E053116B1A43B76500C922B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E05311581A43B76500C922B0 /* iTunesKiller */;
+			targetProxy = E053116A1A43B76500C922B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E05311621A43B76500C922B0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E05311631A43B76500C922B0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E05311711A43B76500C922B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E05311721A43B76500C922B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E05311741A43B76500C922B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iTunesKiller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E05311751A43B76500C922B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = iTunesKiller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E05311771A43B76500C922B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iTunesKillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesKiller.app/Contents/MacOS/iTunesKiller";
+			};
+			name = Debug;
+		};
+		E05311781A43B76500C922B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iTunesKillerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iTunesKiller.app/Contents/MacOS/iTunesKiller";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E05311541A43B76500C922B0 /* Build configuration list for PBXProject "iTunesKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05311711A43B76500C922B0 /* Debug */,
+				E05311721A43B76500C922B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E05311731A43B76500C922B0 /* Build configuration list for PBXNativeTarget "iTunesKiller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05311741A43B76500C922B0 /* Debug */,
+				E05311751A43B76500C922B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E05311761A43B76500C922B0 /* Build configuration list for PBXNativeTarget "iTunesKillerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E05311771A43B76500C922B0 /* Debug */,
+				E05311781A43B76500C922B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E05311511A43B76500C922B0 /* Project object */;
+}
