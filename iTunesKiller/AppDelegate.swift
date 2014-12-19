@@ -28,7 +28,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             // Kill iTunes
             var iTunesInstance = notif.userInfo!["NSWorkspaceApplicationKey"] as NSRunningApplication;
             
-            killProgram(iTunesInstance);
+            self.killProgram(iTunesInstance);
         }
         // We don't care
     }
