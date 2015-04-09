@@ -23,26 +23,28 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func appLaunchedInSharedWorkspace(notif: NSNotification!) {
         var appName = notif.userInfo!["NSApplicationName"] as String;
-
-        if (appName == "iTunes") {
-            // Kill iTunes
-            var iTunesInstance = notif.userInfo!["NSWorkspaceApplicationKey"] as NSRunningApplication;
-            
-            self.killProgram(iTunesInstance);
+        var shouldKill = false;
+        
+        if (appName == "iTunes" || appName == "Photos") {
+            shouldKill = true;
         }
-        // We don't care
+        if (shouldKill) {
+            var instance = notif.userInfo!["NSWorkspaceApplicationKey"] as NSRunningApplication;
+            
+            self.killProgram(instance);
+        }
     }
     
-    func killProgram(iTunesInstance: NSRunningApplication) {
-        if (iTunesInstance.terminate()) {
-            NSLog("Success! iTunes tried to be annoying and failed!");
+    func killProgram(instance: NSRunningApplication) {
+        if (instance.terminate()) {
+            NSLog("Success! \(instance.localizedName!) tried to be annoying and failed!");
         } else {
-            NSLog("iTunes doesn't want to be killed. Let's nuke it!");
+            NSLog("\(instance.localizedName!) doesn't want to be killed. Let's nuke it!");
             
-            if (iTunesInstance.forceTerminate()) {
+            if (instance.forceTerminate()) {
                 NSLog("Finally. Killed the sucker.");
             } else {
-                NSLog("This iTunes crap is a zombie. Maybe try a `kill -9`?");
+                NSLog("This \(instance.localizedName!) crap is a zombie. Maybe try a `kill -9`?");
             }
         }
 
